@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>This frame was created to mint free NFTs for all warpcast users and base builders.</h1>
     </>
   );
 }
