@@ -47,7 +47,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
       ],
       image: {
-        src: `public/park-1.png`,
+        src: `public/park-1.jpg`,
       },
       postUrl: `public/api/frame`,
       state: {
