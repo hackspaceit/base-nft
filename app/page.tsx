@@ -19,13 +19,13 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1:1',
   },
   input: {
-    text: 'Tell me a story',
+    text: 'Tell me Build',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: 'Base Summer Image',
   description: 'LFG',
   openGraph: {
     title: 'zizzamia.xyz',
