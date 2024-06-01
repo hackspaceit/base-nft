@@ -47,9 +47,9 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
       ],
       image: {
-        src: `${NEXT_PUBLIC_URL}/park-1.png`,
+        src: `public/park-1.png`,
       },
-      postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
+      postUrl: `public/api/frame`,
       state: {
         page: state?.page + 1,
         time: new Date().toISOString(),
